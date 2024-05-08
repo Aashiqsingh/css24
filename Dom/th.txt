@@ -1,0 +1,9 @@
+Dom -- document object model 
+
+
+if you need to identify tags.
+id - uniqui
+class - multiple 
+name - multiple
+tagname - multiple 
+querryselector

@@ -1,0 +1,18 @@
+There are three operator 
+
+Unary operator :
+ It is an operator which takes only one operand. Examples of unary operators include increment
+    a++ , ++a , --a , a--
+
+Binary operator :
+    - It require  two operands to perform the operation. 
+
+Ternary operator :
+    -It  requires three operands.
+
+1 . Airthmatic operator :- + , - , * ,/ ,% , **
+2 . assignement operator : = , += , -= , *= , /= , %=
+3 . Comparison operator : == , <= , >= , != , < , > , === , !==
+4 . Logical operator : && , || ,!
+5 . Bitwise operator : & , | , ^ , ~ , << , >>
+6 . Special operator : . , & 

@@ -1,0 +1,5 @@
+Callback function 
+
+JavaScript is a single threded  --> Callback  functions are used to handle asynchronous operations.
+
+java multithreded

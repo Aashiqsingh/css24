@@ -1,0 +1,9 @@
+function use : code reusiblity 
+
+1. without return without argument
+2. with return and arguments
+3. with return without argument
+4. without return  with arguments
+
+
+function declare : function keyword
