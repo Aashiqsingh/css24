@@ -26,3 +26,13 @@ function changeHref(){
     myLink.href = "https://www.netflix.com",
     myLink.innerHTML = "Netflix"
 }
+
+
+function zoomIn(){
+
+    var myImg = document.getElementById("myImg")
+    myImg.style.height = "100px",
+    myImg.style.width = "100px",
+    myImg.style.border = "10px solid red",
+    myImg.style.transition = "2s"
+}
