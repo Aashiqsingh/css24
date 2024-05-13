@@ -25,7 +25,7 @@ function move(){
     para.style.border = "3px solid red",
     para.style.color = "blue"
 
-
+    
 
     console.log(count++);
 }
