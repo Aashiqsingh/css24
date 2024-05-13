@@ -46,3 +46,12 @@ JavaScript have not Datatypes .
 
 
 Js Use :- to manipulate the DOM(Document object model)
+
+
+Mouse Even --
+
+Onclick 
+ondblclick
+onmouseleave
+onmousemove
+onmouseenter
