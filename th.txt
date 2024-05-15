@@ -55,3 +55,9 @@ ondblclick
 onmouseleave
 onmousemove
 onmouseenter
+
+Keyboard event -- 
+onkeydown
+onkeyup
+onkeypress
+
