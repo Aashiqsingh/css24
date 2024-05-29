@@ -19,6 +19,35 @@
 var div = document.getElementsByClassName("box1")
 console.log(div);
 
+
+div[0].addEventListener("mouseleave",()=>{
+
+    div[1].innerHTML = "Welcome Royal.."
+})
+
+const circle = document.getElementsByName("circle")[0]
+
+// console.log(name);
+
+circle.addEventListener("mouseenter",()=>{
+
+    for(let i=0;i<div.length;i++){
+        div[i].style.backgroundColor = "green"
+    }
+
+    // div[0].style.backgroundColor = "red"
+    // div[1].style.backgroundColor = "green"
+    // div[2].style.backgroundColor = "blue"
+})
+circle.addEventListener("mouseleave",()=>{
+    for(let i=0;i<div.length;i++){
+        div[i].style.backgroundColor = "white"
+        }
+})
+
+
+
+
 // div[0].addEventListener("click",()=>{
 //     div[0].style.backgroundColor = "green"
 // })
@@ -46,21 +75,26 @@ console.log(div);
 
 
 
-for(let i=0;i<div.length;i++){
+// for(let i=0;i<div.length;i++){
 
-    div[i].addEventListener("mouseenter",()=>{
-        div[i].style.backgroundColor = "yellow"
-    })
-}
+//     div[i].addEventListener("mouseenter",()=>{
+//         div[i].style.backgroundColor = "yellow"
+//     })
+// }
 
-for(let i=0;i<div.length;i++){
+// for(let i=0;i<div.length;i++){
 
-    div[i].addEventListener("mouseleave",()=>{
-        div[i].style.backgroundColor = "white"
-    })
-}
+//     div[i].addEventListener("mouseleave",()=>{
+//         div[i].style.backgroundColor = "white"
+//     })
+// }
+
+
+
 
 // div.addEventListener("click",()=>{
 //     // div.style.backgroundColor = "green"
 //     // alert("Div is called!!")
 // })
+
+
