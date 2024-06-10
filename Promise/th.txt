@@ -1,0 +1,16 @@
+Promise -->   pending ,resolve , reject 
+
+
+syncronous:
+
+non-syncronuous:
+
+
+**********************************************
+
+*#*#*# -- und
+
+##############################################
+
+
+Promise is a class in js

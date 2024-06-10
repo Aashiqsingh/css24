@@ -40,3 +40,5 @@ var date = new Date();
 
 // console.log(date.getMilliseconds());
 // console.log(date.getUTCMilliseconds());
+
+console.log(date.getTime());
