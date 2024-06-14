@@ -41,7 +41,7 @@ const - block scope  but can't be change the value
 
 
 
-JavaScript have not Datatypes .
+JavaScript have no Datatypes .
 
 
 
