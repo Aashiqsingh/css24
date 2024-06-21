@@ -2,7 +2,7 @@
 
 const ApiDemo1 = async () => {
 
-    const response = await fetch("https://reqres.in/api/users?page=2", {
+    const response = await fetch("https://node5.onrender.com/user/user", {
         method: "GET"
     })
     console.log(response);
