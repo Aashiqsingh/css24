@@ -2,7 +2,7 @@ const PostApi = async () => {
 
 
     var objData = {
-        name: "chetan",
+        name: "chetan"
         email: "chetan@gmail.com",
         age: 19,
         isActive: true
