@@ -1,27 +1,15 @@
-// var a = 10;
-// var b = 11;
+var a = 12;
 
-// if(a != b){
-//     console.log("a is equal to b");
-// }
-// else{
-//     console.log("a is not equal to b");
-// }
+if(a > 0){
+    console.log("Positive");
+}
+else{
+    console.log("Negative");
+}
 
-var a = 30;
-var b = 30;
-
-// if(a > b ){
-//     console.log("a is greater than b");
-// }
-
-// else{
-//     console.log("a is less than b");
-// }
+// var a = 20;
+// var b = 32;
+// var c = 45;
 
 
-console.log(a == b);
-console.log(a!=b);
-console.log(a === b);
-console.log(a >= b);
-console.log(a !== b);
+// a > b ? a > c ? console.log("a is bigger") : console.log("c is bigger") : b > c ? console.log("b is bigger") : console.log("c is bigger");

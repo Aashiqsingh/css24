@@ -1,40 +1,48 @@
-// var a = 10   /// gloabal
-// let b = 20.9  // local
+// var a = 10;
+// console.log("outer block value of a = ",a);
 
-// console.log("outer value of a = ",a);
-// console.log("outer value of b = ",b);
+// let b = 12.5;
+// console.log("outer block value of b = ",b);
 
-// {
-//     console.log("inner value of a = ",a);
-//     console.log("inner value of b = ",b);
+{
 
-//     var x = 20
-//     let y = 30
-
-//     console.log("inner value of x = ",x);
-//     console.log("inner value of y = ",y);
-// }
-
-// console.log("outer value of x = ",x);
-// console.log("outer value of y = ",y);
+    // console.log("inner block value of b = ",b);
+    
+    // console.log("inner block value of a = ",a);
 
 
-// var a = 10
+    // var a = 10;
+    // console.log("inner block value of a = ",a);
+
+    // let b = 12.5;
+    // console.log("inner block value of b = ",b);
+
+    // const pi = 3.14;
+    // console.log("inner block value of pi = ",pi);
+
+}
+
+// console.log("outer block value of pi = ",pi); // ReferenceError: pi is not defined
+
+// console.log("outer block value of a = ",a);
+
+// console.log("outer block value of b = ",b);
+
+
+// var a = 10;
 // console.log("value of a = ",a);
 
-
-// var a = "ram";
+// var a = 12.67;
 // console.log("value of a = ",a);
 
-
-// let a = 12;
+// let a = 10;
 // console.log("value of a = ",a);
 
-// a = 30;
+// a = 12.76;
 // console.log("value of a = ",a);
 
 const pi = 3.14
-console.log("value of pi =",pi);
+console.log("value of pi = ",pi);
 
-pi = 3.15
-console.log("value of pi =",pi);
+pi = 3.15;
+console.log("value of pi = ",pi);

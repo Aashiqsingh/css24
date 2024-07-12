@@ -1,28 +1,23 @@
-// console.log("Log function called");
-// console.info("Log function called")
-// console.warn("This is warning message")
-// console.error("This is error message")
+// console.log("Hello world!");
+// console.info("Hello world!");
+// console.warn("this is a warning message")
+// console.error("this is a error message")
 
-
-// Datatypes : number  , string , boolean , undefined
 
 a = 10
 console.log("value of a = ",a);
-console.log("type of a = ",typeof(a));
+console.log("value of a = ",typeof a);
 
-b = 20.56
+b = 2.34
 console.log("value of b = ",b);
-console.log("type of b = ",typeof b);
+console.log("value of b = ",typeof b);
 
-c = "akash"
+c = "hello world"
 console.log("value of c = ",c);
-console.log("type of c",typeof(c));
+console.log("value of c = ",typeof c);
 
-isActive = true;
-console.log("isActive = " , isActive);
-console.log("isActive = " +typeof isActive);
+isActive = false;
 
+console.log("value of isActive = ",isActive);
 
-var x;
-console.log("value of x = ",x);
-console.log("type of x = ",typeof(x));
+console.log("value of isActive = ",typeof(isActive));
