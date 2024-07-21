@@ -1,0 +1,11 @@
+Function :- code reusiblity
+
+js -- Function -- function keyword
+retrun -- return keyword 
+
+
+There are four type of functions
+1. without return without arguments
+2. without return with arguments
+3. with return with arguments
+4. with return without arguments

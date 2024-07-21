@@ -18,4 +18,11 @@ switch(food){
     default:
             console.log("I'm sorry, I don't have information about this food.");
             break;
+
+
+        case 1:
+                var x = add(x,y)
+                console.log(x);
+                break;
+                
 }
